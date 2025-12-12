@@ -13,7 +13,7 @@ Abstract: *Current video-based GS compression methods rely on using Parallel Lin
 
 #### Local Setup
 
-Our default, provided install method is based on Conda package and environment management:
+Our default, provided install method is based on the Conda package and environment management:
 ```shell
 unzip submodules.zip
 SET DISTUTILS_USE_SDK=1 # Windows only
@@ -25,32 +25,33 @@ conda activate LGSCV
 
 To run the LGSCV, check ./LGSCV/test_LGSCV.py
 
-you will obtain several bitrate results after running.
+You will obtain several bitrate results after running.
 
 The results folder is like the following: 
+
 -HEVC_test
 
     -2Dmap
         - frame000
             - config.json (Parameters of using GSTo2DMap.py)
-            - log.txt (log information of runing GSTo2DMap.py)
+            - log.txt (log information of running GSTo2DMap.py)
             - metadata.json (metadata for decoding)
-            - time.json (computation time of runing GSTo2DMap.py)
+            - time.json (computation time of running GSTo2DMap.py)
             - pca_AC_all.json (metadata for PCA)
             - xxx.png (2D images of input GS file)
     -bitrate_xx
-        - bpp.json (bitrate details, econding and decoding time)
-        - config.json (Parameters of using image_coding.py)
-        - log.txt (log information if runing image_coding.py)
+        - bpp.json (bitrate details, encoding and decoding time)
+        - config.json (Parameters for using image_coding.py)
+        - log.txt (log information if running image_coding.py)
     -bitrate_xx_reImg (decompressed image of input 2D maps)
-    -bitrate_xx_reply (lossly compressed GS file)
+    -bitrate_xx_reply (lossy compressed GS file)
     -render
         - dis_render_xx (rendering results of bitrate xx)
         - dis_render_xx_metric (metric results (PSNR, SSIM, LPIPS) of bitrate xx)
         - ref_render (rendering results of input GS file)
 
-Our project uses HM18.0, and we provide a linux binary and cfg files in ./HM
-You can compile you own HM binary via the project [here](https://vcgit.hhi.fraunhofer.de/jvet/HM/-/tree/HM-18.0?ref_type=tags), and update the binary path in image_coding.py
+Our project uses HM18.0, and we provide a Linux binary and cfg files in ./HM
+You can compile your own HM binary via the project [here](https://vcgit.hhi.fraunhofer.de/jvet/HM/-/tree/HM-18.0?ref_type=tags), and update the binary path in image_coding.py
 
 
 
