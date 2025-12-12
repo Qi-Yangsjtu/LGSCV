@@ -8,7 +8,7 @@ import os
 # Email: qiyang@umkc.edu
 #**************************************************************
 
-dataset = '/home/qyyck/Documents/GS_dataset/MPEG/' # set you own dataset path
+dataset = 'xxx/MPEG/' # set you own dataset path
 sub_dataset = [ 'bartender'] # set you own sub-dataset path
 sub_frame = f'frame{0:03d}' # set .ply name
 
