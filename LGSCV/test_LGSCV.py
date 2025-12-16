@@ -19,11 +19,6 @@ f_rest_qp_1_list = [0, 7, 17, 22, 32]
 opacity_qp_list = [0, 7, 17, 17, 22]
 scale_qp_list = [0, 7, 7, 12, 12]
 rot_qp_list = [0, 2, 2, 7, 17]
-# f_dc_qp_list = [7]
-# f_rest_qp_1_list = [32]
-# opacity_qp_list = [22]
-# scale_qp_list = [12]
-# rot_qp_list = [17]
 
 # Control parameters
 PCA_dim = '12'   # PCA dimension for SH AC
@@ -60,6 +55,7 @@ I_miniPLAS_single_scale = miniPLAS_single_scale
 
 results_main_path = f'/HEVC_test'
 
+# better to use absolute path
 map_script = 'GSTo2DMap.py'
 coding_script = 'image_coding.py'
 render_script = 'render.py'
