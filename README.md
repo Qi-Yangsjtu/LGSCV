@@ -2,6 +2,8 @@
 
 Qi Yang, Geert Van Der Auwera, Zhu Li <br>
 
+[Paper](https://www.arxiv.org/abs/2512.11186) [PPT](https://drive.google.com/file/d/1JN4x5z1njUzunMHQJkSZe7BYYSmEaTgB/view?usp=sharing)
+
 The rendering part of this project is based on the official implementation associated with the paper "3D Gaussian Splatting for Real-Time Radiance Field Rendering", which can be found [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/).
 
 The MiniPLAS part of this project is based on the official implementation associated with the paper "Compact 3D Scene Representation via Self-Organizing Gaussian Grids", which can be found [here](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)
