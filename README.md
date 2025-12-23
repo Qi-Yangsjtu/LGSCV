@@ -58,3 +58,10 @@ You can compile your own HM binary via the project [here](https://vcgit.hhi.frau
 
 
 If you use our project, please cite our paper.
+
+@article{yang2025lightweight,
+  title={Lightweight 3D Gaussian Splatting Compression via Video Codec},
+  author={Yang, Qi and Van Der Auwera, Geert and Li, Zhu},
+  journal={arXiv preprint arXiv:2512.11186},
+  year={2025}
+}
